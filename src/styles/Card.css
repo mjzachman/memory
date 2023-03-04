@@ -7,6 +7,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    gap: 10px;
 }
 
 img{
@@ -15,37 +16,40 @@ img{
 }
 
 .team-name {
-    padding-top: 15px;
+    padding-top: 5px;
     padding-bottom: 5px;
+    width: 100%;
+    border: solid black 2px;
 }
 
 img[alt='Arkansas'] {
-    width: 145px;
+    width: 140px;
     height: auto;
+    padding-bottom: 15px;
 }
 
 img[alt='Florida'] {
-    width: 145px;
+    width: 140px;
     height: auto;
 }
 
 img[alt='Georgia'] {
-    width: 145px;
+    width: 140px;
     height: auto;
 }
 
 img[alt='LSU'] {
-    width: 145px;
+    width: 140px;
     height: auto;
 }
 
 img[alt='Missouri'] {
-    width: 145px;
+    width: 140px;
     height: auto;
 }
 
 img[alt='Mississippi State'] {
-    width: 145px;
+    width: 140px;
     height: auto;
 }
 
