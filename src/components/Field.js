@@ -25,75 +25,84 @@ const Field = () => {
       console.log('use state');
     });
 
+  const teams = [
+    {
+      logo: alabamaLogo,
+      name: 'Alabama'
+    },
+    {
+      logo: arkansasLogo,
+      name: 'Arkansas'
+    },
+    {
+      logo: auburnLogo,
+      name: 'Auburn'
+    },
+    {
+      logo: floridaLogo,
+      name: 'Florida'
+    },
+    {
+      logo: georgiaLogo,
+      name: 'Georgia'
+    },
+    {
+      logo: kentuckyLogo,
+      name: 'Kentucky'
+    },
+    {
+      logo: lsuLogo,
+      name: 'LSU'
+    },
+    {
+      logo: mississippiLogo,
+      name: 'Mississippi'
+    },
+    {
+      logo: missouriLogo,
+      name: 'Missouri'
+    },
+    {
+      logo: mstateLogo,
+      name: 'Mississippi State'
+    },
+    {
+      logo: oklahomaLogo,
+      name: 'Oklahoma'
+    },
+    {
+      logo: scarolinaLogo,
+      name: 'South Carolina'
+    },
+    {
+      logo: tamLogo,
+      name: 'Texas A&M'
+    },
+    {
+      logo: tennesseeLogo,
+      name: 'Tennessee'
+    },
+    {
+      logo: texasLogo,
+      name: 'Texas'
+    },
+    {
+      logo: vanderbiltLogo,
+      name: 'Vanderbilt'
+    }
+  ];
+  const teamCards = teams.map((team) => 
+    <Card 
+      logo = {team.logo}
+      team = {team.name}
+      />
+  );
+
 
 
   return (
     <div className = "field">
-        <Card
-          logo = {alabamaLogo}
-          team = 'Alabama'
-          />
-        <Card
-          logo = {arkansasLogo}
-          team = 'Arkansas'
-          />
-        <Card
-          logo = {auburnLogo}
-          team = 'Auburn'
-          />
-        <Card
-          logo = {floridaLogo}
-          team = 'Florida'
-          />
-        <Card
-          logo = {georgiaLogo}
-          team = 'Georgia'
-          />
-        <Card
-          logo = {kentuckyLogo}
-          team = 'Kentucky'
-          />
-        <Card
-          logo = {lsuLogo}
-          team = 'LSU'
-          />
-        <Card
-          logo = {mississippiLogo}
-          team = 'Ole Miss'
-          />
-        <Card
-          logo = {missouriLogo}
-          team = 'Missouri'
-          />
-        <Card
-          logo = {mstateLogo}
-          team = 'Mississippi State'
-          />
-        <Card
-          logo = {oklahomaLogo}
-          team = 'Oklahoma'
-          />
-        <Card
-          logo = {scarolinaLogo}
-          team = 'South Carolina'
-          />
-        <Card
-          logo = {tamLogo}
-          team = 'Texas A&M'
-          />
-        <Card
-          logo = {tennesseeLogo}
-          team = 'Tennessee'
-          />
-        <Card
-          logo = {texasLogo}
-          team = 'Texas'
-          />
-        <Card
-          logo = {vanderbiltLogo}
-          team = 'Vanderbilt'
-          />
-        
+        { teamCards }
     </div>
     
   );

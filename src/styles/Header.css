@@ -1,12 +1,12 @@
 .header {
     background-color: lightblue;
     color: black;
-    width: 800px;
+    width: 100vw;
     height: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    border: solid black 5px;
+    outline: solid black 5px;
 }
 
 .title { 
