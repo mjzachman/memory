@@ -1,8 +1,8 @@
 import '../styles/Card.css';
 import React, { useState, useEffect } from "react";
-import logo from '../logos/kentucky.png'
 
-const Card = () => {
+
+const Card = (props) => {
   const [state, setState] = useState("state");
 
   useEffect(() => {
@@ -11,8 +11,8 @@ const Card = () => {
 
   return (
     <div className = "card">
-      <img src={logo} alt="kentucky"></img>
-      <p>This is a card</p>
+      <img src={props.logo} alt={props.team}></img>
+      <p className="team-name">{props.team}</p>
     </div>
   );
 };
