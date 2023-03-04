@@ -1,24 +1,24 @@
 import '../styles/App.css';
+import React, { useState, useEffect } from "react";
+import Title from './Title.js';
+import Score from './Score.js';
+import Field from './Field.js';
 
-function App() {
+const App = () => {
+  const [state, setState] = useState("state");
+
+  useEffect(() => {
+      console.log('use state');
+    });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class = "app">
+      <Title />
+      <Score />
+      <Field />
     </div>
+    
   );
-}
+};
 
 export default App;
