@@ -1,8 +1,14 @@
-.title {
+.header {
     background-color: green;
     color: white;
-    width: 50vw;
+    width: 800px;
     height: 100px;
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title { 
+    width: 400px;
+    height: 100px;
 }

@@ -1,7 +1,7 @@
 import '../styles/App.css';
 import React, { useState, useEffect } from "react";
-import Title from './Title.js';
-import Score from './Score.js';
+import Header from './Header.js';
+
 import Field from './Field.js';
 
 const App = () => {
@@ -13,8 +13,7 @@ const App = () => {
 
   return (
     <div class = "app">
-      <Title />
-      <Score />
+      <Header />
       <Field />
     </div>
     

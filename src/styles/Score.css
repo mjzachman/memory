@@ -1,8 +1,6 @@
 .score {
     background-color: red;
     color: yellow;
-    width: 50vw;
+    width: 400px;
     height: 100px;
-    display: inline-block;
-    vertical-align: middle;
 }
