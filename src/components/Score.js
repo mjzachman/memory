@@ -1,16 +1,11 @@
 import '../styles/Score.css';
-import React, { useState, useEffect } from "react";
+import React from "react";
 
-const Score = () => {
-  const [state, setState] = useState("state");
-
-  useEffect(() => {
-      console.log('use state');
-    });
-
+const Score = (props) => {
+  
   return (
     <div className = "score">
-        <p>Score: 0</p>
+        <p>Score: {props.score}</p>
     </div>
     
   );

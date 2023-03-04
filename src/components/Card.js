@@ -1,18 +1,14 @@
 import '../styles/Card.css';
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 
 const Card = (props) => {
-  const [state, setState] = useState("state");
-
-  useEffect(() => {
-      console.log('use state');
-    });
+  
 
   return (
-    <div className = "card">
-      <img src={props.logo} alt={props.team}></img>
-      <p className="team-name">{props.team}</p>
+    <div className = "card" onClick = {props.onClick}>
+      <img src={props.logo} alt={props.name}></img>
+      <p className="team-name">{props.name}</p>
     </div>
   );
 };
