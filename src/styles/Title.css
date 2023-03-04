@@ -1,0 +1,8 @@
+.title {
+    background-color: green;
+    color: white;
+    width: 50vw;
+    height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}

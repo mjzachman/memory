@@ -1,0 +1,9 @@
+.field {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    gap: 10px;
+}

@@ -11,7 +11,18 @@ const Field = () => {
 
   return (
     <div class = "field">
-        <p>This is the field</p>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
         <Card />
         <Card />
         <Card />

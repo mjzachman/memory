@@ -1,4 +1,4 @@
-import '../styles/Field.css';
+import '../styles/Score.css';
 import React, { useState, useEffect } from "react";
 
 const Score = () => {

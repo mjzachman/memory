@@ -1,4 +1,4 @@
-import '../styles/Field.css';
+import '../styles/Title.css';
 import React, { useState, useEffect } from "react";
 
 const Title = () => {
@@ -10,7 +10,7 @@ const Title = () => {
 
   return (
     <div class = "title">
-        <p>This is the title</p>
+        This is the title!
     </div>
     
   );
