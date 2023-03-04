@@ -9,7 +9,7 @@ const Score = () => {
     });
 
   return (
-    <div class = "score">
+    <div className = "score">
         <p>Score: 0</p>
     </div>
     

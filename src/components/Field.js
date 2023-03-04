@@ -10,7 +10,7 @@ const Field = () => {
     });
 
   return (
-    <div class = "field">
+    <div className = "field">
         <Card />
         <Card />
         <Card />

@@ -10,8 +10,8 @@ const Header = () => {
     });
 
   return (
-    <div class = "header">
-        <p class = "title">SEC Memory Game</p>
+    <div className = "header">
+        <p className = "title">SEC Memory Game</p>
         <Score />
     </div>
     
