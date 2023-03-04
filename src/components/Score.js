@@ -10,7 +10,7 @@ const Score = () => {
 
   return (
     <div class = "score">
-        <p>This is the score</p>
+        <p>Score: 0</p>
     </div>
     
   );

@@ -1,4 +1,4 @@
-import '../styles/Title.css';
+import '../styles/Header.css';
 import React, { useState, useEffect } from "react";
 import Score from './Score.js';
 
@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <div class = "header">
-        <p class = "title">This is the title!</p>
+        <p class = "title">SEC Memory Game</p>
         <Score />
     </div>
     

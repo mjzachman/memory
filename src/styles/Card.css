@@ -3,4 +3,8 @@
     width: 150px;
     border: solid black 5px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

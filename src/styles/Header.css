@@ -1,14 +1,14 @@
 .header {
-    background-color: green;
-    color: white;
+    background-color: lightblue;
+    color: black;
     width: 800px;
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: solid black 5px;
 }
 
 .title { 
     width: 400px;
-    height: 100px;
 }
